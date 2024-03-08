@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0d1723;
+    padding: 20px;
+    text-align: center;
+}
+.header h2{
+    color: aliceblue;
+}
+
+.header a{
+    color: rgb(64, 93, 155);
+    list-style-type: none;
+}
+
+.nav_menu {
+    background-color: black;
+    overflow: hidden;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header_menu li {
+    float: left;
+}
+
+.header_menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header_menu a:hover {
+    background-color: #3a6fbe;
+}
+
+.search_container{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+
+.table{
+    width: 300px;
+    height: 90px;
+    padding-left: 60px;
+    margin : 1px;
+    border-bottom: 1px solid blanchedalmond;
+    display: inline-block;
+}
+
+.table img{
+    width: 70px;
+    height: 50px;
+}
+
+.table a{
+    text-decoration : none;
+    color: rgb(4, 53, 53);
+}
+
+#adel{
+    color: rgb(206, 15, 91);
+}
+
+.pagination{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: blue;
+}
+
+.pagination a{
+    width: 20px;
+    color: rgb(32, 175, 232);
+    margin: 0 2px;
+    text-decoration: none;
+    /* border : 1px solid white; */
+}

@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0d1723;
+    padding: 20px;
+    text-align: center;
+}
+.header h2{
+    color: aliceblue;
+}
+
+.header a{
+    color: rgb(64, 93, 155);
+    list-style-type: none;
+}
+
+.nav_menu {
+    background-color: black;
+    overflow: hidden;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header_menu li {
+    float: left;
+}
+
+.header_menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header_menu a:hover {
+    background-color: #3a6fbe;
+}
+
+.comic-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a1a2e; /* Dark Blue */
+    color: #fff; /* White */
+    width: 400px; /* Reduce the width */
+}
+
+.comic-item .username, .comic-item .nd {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.comic-item form {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Make the form take the full width */
+}
+
+.comic-item form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #00b894; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
